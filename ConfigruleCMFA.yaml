@@ -33,49 +33,50 @@ dns:
     - 112.215.203.254
 proxies:
   - name: AKUN1
-    server: ava.game.naver.com
-    port: 443
-    type: vless
-    uuid: c8dc1764-57b9-400d-b5f3-d6ad59daf15f
+    server: quiz.int.vidio.com
+    port: 80
+    type: vmess
+    uuid: 396415b0-6f7d-4df3-9d50-1a3ff9115b1a
+    alterId: 0
     cipher: auto
-    tls: true
+    tls: false
     skip-cert-verify: true
-    servername: ava.game.naver.com.aren.bhmku.net
+    servername: id2-ray.ipservers.xyz
     network: ws
     ws-opts:
-      path: /vless
+      path: /JAGOANSSH/
       headers:
-        Host: ava.game.naver.com.aren.bhmku.net
+        Host: id2-ray.ipservers.xyz
     udp: true
   - name: AKUN2
-    server: investor.fb.com
+    server: quiz.int.vidio.com
     port: 443
     type: vless
-    uuid: c8dc1764-57b9-400d-b5f3-d6ad59daf15f
+    uuid: 9cf9a9b0-2e2e-45bd-ac6f-5eaa44e30cfe
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: investor.fb.com.aren.bhmku.net
+    servername: id1vless.ipservers.xyz
     network: ws
     ws-opts:
-      path: /vless
+      path: /jagoanssh
       headers:
-        Host: investor.fb.com.aren.bhmku.net
+        Host: id1vless.ipservers.xyz
     udp: true
   - name: AKUN3
-    server: df.game.naver.com
+    server: quiz.int.vidio.com
     port: 443
     type: vless
-    uuid: c8dc1764-57b9-400d-b5f3-d6ad59daf15f
+    uuid: aae98731-898a-4cd3-8c7f-d09af2387d63
     cipher: auto
     tls: true
     skip-cert-verify: true
-    servername: aren.bhmku.net
+    servername: id2vless.ipservers.xyz
     network: ws
     ws-opts:
-      path: /vless
+      path: /jagoanssh
       headers:
-        Host: aren.bhmku.net
+        Host: id2vless.ipservers.xyz
     udp: true
 
 proxy-groups:
